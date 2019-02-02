@@ -1,4 +1,4 @@
-FROM microsoft/dotnet:2.2.0
+FROM microsoft/dotnet:latest
 
 RUN    apt-get update -yq \
     && apt-get install curl gnupg -yq \
